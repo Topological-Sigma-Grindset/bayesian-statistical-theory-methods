@@ -55,7 +55,6 @@ Each analysis writes generated plots to its own `figures/` folder and numerical 
 
 The code uses base R only. Simulation scripts set random seeds so that results are reproducible. If simulation counts or seeds are changed, numerical summaries may change slightly.
 
-The airline analysis looks for a local file at `analyses/04-airline-poisson-trend/data/planes.txt` with columns `year` and `fatal`. If that file is not present, the script uses an inline table of fatal-accident counts for 1976--1985 so the analysis remains reproducible without redistributing restricted files.
 
 ## Disclaimer
 
