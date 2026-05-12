@@ -57,6 +57,6 @@ The code uses base R only. Simulation scripts set random seeds so that results a
 
 The airline analysis looks for a local file at `analyses/04-airline-poisson-trend/data/planes.txt` with columns `year` and `fatal`. If that file is not present, the script uses an inline table of fatal-accident counts for 1976--1985 so the analysis remains reproducible without redistributing restricted files.
 
-## Portfolio note
+## Disclaimer
 
-This folder is intended to contain original code, original explanations, generated figures, and data that may be redistributed. Restricted prompts, solution PDFs, textbook PDFs, and private data files should not be committed.
+This folder contains original code, original explanations, generated figures, and data that may be redistributed. Restricted prompts, solution PDFs, and private data files should not be committed.
