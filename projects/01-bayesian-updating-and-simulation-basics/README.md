@@ -1,8 +1,8 @@
 # Project 01: Bayesian Updating and Simulation Basics
 
-This project contains a set of small, self-contained Bayesian analyses and simulation studies. The analyses move from closed-form Bayesian updating to grid-based posterior approximation, posterior predictive simulation, and Monte Carlo simulation of stochastic systems.
+This project contains a set of self-contained Bayesian analyses and simulations. The analyses move from closed-form Bayesian updating to grid-based posterior approximation, posterior predictive simulation, and Monte Carlo simulation of stochastic systems.
 
-Each analysis is written as an independent mini-project with its own code, figures, results, and short explanation. This makes the project easier to browse as a portfolio: a reader can open one folder, understand the statistical problem, run the code, and inspect the outputs without reading a long monolithic script.
+Each analysis is written as an independent project with its own code, figures, results, and short explanation.
 
 ## Analyses
 
