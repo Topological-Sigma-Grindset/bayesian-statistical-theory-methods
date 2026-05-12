@@ -1,0 +1,2 @@
+"a_prior","b_prior","n","y","a_post","b_post","prior_mean","posterior_mean","prior_variance","posterior_variance","posterior_variance_larger"
+1,3,1,1,2,3,0.25,0.4,0.0375,0.04,TRUE
