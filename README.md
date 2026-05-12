@@ -2,7 +2,7 @@
 
 This repository is a chronological portfolio of Bayesian statistical modeling projects.
 
-The projects emphasize probability modeling, posterior computation, uncertainty quantification, simulation, hierarchical modeling, model checking, and reproducible analysis in R.
+The projects are in probability modeling, posterior computation, uncertainty quantification, simulation, hierarchical modeling, model checking, and reproducible analysis in R.
 
 ## Portfolio goals
 
