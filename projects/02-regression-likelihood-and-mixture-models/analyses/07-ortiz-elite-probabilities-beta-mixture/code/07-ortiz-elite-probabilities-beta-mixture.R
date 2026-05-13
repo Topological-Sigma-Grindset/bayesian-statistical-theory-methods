@@ -4,9 +4,8 @@
 # Required package: Lahman
 #
 # Testing-speed version:
-# - n_starts reduced from 30 to 5
-# - maxit reduced from 2000 to 200
-# - progress messages added
+# - n_starts set to 5
+# - maxit set to 200
 
 out_dir <- "projects/02-regression-likelihood-and-mixture-models/analyses/07-ortiz-elite-probabilities-beta-mixture"
 fig_dir <- file.path(out_dir, "figures")
