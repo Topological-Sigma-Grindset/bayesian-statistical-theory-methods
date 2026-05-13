@@ -4,7 +4,7 @@ This project develops a sequence of Bayesian and likelihood-based statistical an
 
 The project combines two applied settings:
 
-1. **Radon measurements**: Bayesian linear regression for log radon levels using county and floor indicators.
+1. **Radon measurements**: Bayesian linear regression for log radon (the gas) levels using county and floor indicators.
 2. **Baseball home-run rates**: likelihood-based beta modeling and finite mixture models for player-season home-run rates using the Lahman baseball database.
 
 The project is organized into small standalone analyses. Each analysis has its own script, figures, results, and short README.
