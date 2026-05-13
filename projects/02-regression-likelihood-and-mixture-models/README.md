@@ -13,7 +13,7 @@ The project is organized into small standalone analyses. Each analysis has its o
 
 ## Statistical methods demonstrated
 
-This project demonstrates:
+This project includes:
 
 - Bayesian linear regression with a noninformative prior
 - Posterior summaries for regression coefficients and residual scale
