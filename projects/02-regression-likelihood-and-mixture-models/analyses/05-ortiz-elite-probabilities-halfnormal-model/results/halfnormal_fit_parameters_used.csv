@@ -1,0 +1,2 @@
+"model","n_observations","n_starts","best_start","pi_hat","mu_hat","sigma_hat","sigma2_hat","log_likelihood","iterations","converged"
+"normal_halfnormal_mixture",16023,30,17,0.656210090933332,0.0380021943663459,0.0181596004143283,0.000329771087208074,41893.126333024,99,TRUE

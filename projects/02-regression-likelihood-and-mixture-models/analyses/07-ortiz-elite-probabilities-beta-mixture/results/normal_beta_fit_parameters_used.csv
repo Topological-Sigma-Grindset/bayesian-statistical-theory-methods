@@ -1,0 +1,2 @@
+"model","n_observations","n_starts","best_start","pi_hat","mu_hat","sigma_hat","sigma2_hat","alpha_hat","beta_hat","log_likelihood","iterations","converged"
+"normal_beta_mixture",16023,5,3,0.264896395086482,0.0424029874569106,0.0144827054997967,0.000209748758593841,1.92470370091017,71.8496920473123,42525.7665994325,195,TRUE

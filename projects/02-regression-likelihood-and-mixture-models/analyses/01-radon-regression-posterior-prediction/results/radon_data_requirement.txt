@@ -1,0 +1,10 @@
+Analysis 01 requires a local radon CSV that is not stored in this public repository.
+Place the local radon file in this analysis data directory:
+projects/02-regression-likelihood-and-mixture-models/analyses/01-radon-regression-posterior-prediction/data
+Accepted filenames:
+  - radon.table.7.3.csv
+  - radon_table_7_3.csv
+  - table_7_3_radon.csv
+  - radon.csv
+If exactly one CSV is present in the data folder, the script will use that file.
+Expected variables are radon measurement, county, and floor.

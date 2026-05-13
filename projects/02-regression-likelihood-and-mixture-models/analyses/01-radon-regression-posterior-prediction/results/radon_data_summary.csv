@@ -1,0 +1,2 @@
+"radon_file","n_observations","n_parameters","residual_df","county_levels","floor_levels"
+"projects/02-regression-likelihood-and-mixture-models/analyses/01-radon-regression-posterior-prediction/data/radon.table.7.3.csv",41,4,37,"BlueEarth; Clay; Goodhue","Basement; First"
