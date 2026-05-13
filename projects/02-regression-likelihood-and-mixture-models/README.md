@@ -1,25 +1,45 @@
-# Analysis 01: Radon Regression and Posterior Prediction
+# Project 02: Regression, Likelihood, and Mixture Models
 
-This analysis fits a Bayesian linear regression model for log radon using county and floor indicators. It reports posterior summaries for regression coefficients, the residual scale, and posterior predictive intervals for a new Clay County house on the first floor and in the basement.
+This project develops a sequence of Bayesian and likelihood-based statistical analyses in R. The emphasis is on transparent model formulation, reproducible computation, posterior simulation, maximum likelihood estimation, and finite mixture modeling.
 
-## Data
+The project combines two applied settings:
 
-Place the local radon CSV in this folder:
+1. **Radon measurements**: Bayesian linear regression for log radon levels using county and floor indicators.
+2. **Baseball home-run rates**: likelihood-based beta modeling and finite mixture models for player-season home-run rates using the Lahman baseball database.
+
+The project is organized into small standalone analyses. Each analysis has its own script, figures, results, and short README.
+
+---
+
+## Statistical methods demonstrated
+
+This project demonstrates:
+
+- Bayesian linear regression with a noninformative prior
+- Posterior summaries for regression coefficients and residual scale
+- Posterior predictive simulation
+- Beta likelihood modeling for continuous rates
+- Maximum likelihood estimation by grid search
+- Maximum likelihood estimation by numerical optimization with `optim`
+- EM algorithms for finite mixture models
+- Multi-start optimization for mixture models
+- Mixture-based posterior classification probabilities
+- Reproducible R scripting with analysis-level outputs
+
+---
+
+## Project structure
 
 ```text
-data/
-```
-
-The script looks for common file names including `radon.table.7.3.csv`, `radon_table_7_3.csv`, `radon.csv`, and `table_7_3_radon.csv`. If exactly one CSV is present in `data/`, it uses that file.
-
-Expected variables are radon measurement, county, and floor. If no local radon CSV is present, the script writes `results/radon_data_requirement.txt` and skips the calculation.
-
-## Dependencies
-
-Base R only.
-
-## Run
-
-```r
-source("projects/02-regression-likelihood-and-mixture-models/analyses/01-radon-regression-posterior-prediction/code/01-radon-regression-posterior-prediction.R")
-```
+02-regression-likelihood-and-mixture-models/
+├── README.md
+├── run_all.R
+├── MANIFEST.txt
+└── analyses/
+    ├── 01-radon-regression-posterior-prediction/
+    ├── 02-beta-model-home-run-rates/
+    ├── 03-beta-mle-grid-and-optim/
+    ├── 04-normal-halfnormal-mixture-em/
+    ├── 05-ortiz-elite-probabilities-halfnormal-model/
+    ├── 06-normal-beta-mixture-em/
+    └── 07-ortiz-elite-probabilities-beta-mixture/
